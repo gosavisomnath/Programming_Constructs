@@ -1,0 +1,10 @@
+let ran1 = Math.floor((Math.random() * 90)+10);
+let ran2 = Math.floor((Math.random() * 90)+10);
+let ran3 = Math.floor((Math.random() * 90)+10);
+let ran4 = Math.floor((Math.random() * 90)+10);
+let ran5 = Math.floor((Math.random() * 90)+10);
+let n=5;
+let sum = ran1 + ran2 + ran3 + ran4 + ran5;
+console.log("The Sum of Random Numbers is = "+sum);
+let average=sum/n;
+console.log("The Average Of Random Numbers is = "+average);
